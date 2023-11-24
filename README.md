@@ -4,7 +4,7 @@
 
 >`NRP :` **5025221085**
 
->`Github:` [`tree_and_logic_gate_viz_tool`](https://github.com/superpositional/hyperfractionals)
+>`Github:` [`code: hyperfractionals`](https://github.com/superpositional/hyperfractionals)
 
 Created in order to complete a Discrete Math assignment in Institut Teknologi Sepuluh Nopember (ITS) Surabaya
 
