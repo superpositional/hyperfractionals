@@ -1,10 +1,10 @@
 # Logical Statement (+arithmetics!) Graphical User Interface
 
->`Name:` **Taib Izzat Samawi**
+>`Name  :` **Taib Izzat Samawi**
 
->`NRP :` **5025221085**
+>`NRP   :` **5025221085**
 
->`Github:` [`code: hyperfractionals`](https://github.com/superpositional/hyperfractionals)
+>`Github:` [`tree_and_logic_gate_viz_tool`](https://github.com/superpositional/hyperfractionals)
 
 Created in order to complete a Discrete Math assignment in Institut Teknologi Sepuluh Nopember (ITS) Surabaya
 
@@ -43,9 +43,25 @@ python ./logical_statement_tree.py
 ```
 
 ## Using the app
-- After running the app, a window will appear. Users can input a logical or arithmetic statement inside the input box.
+- After running the app, a window will appear. Users can input a logical or arithmetic statement inside the input box. **Do not separate the operators and or operands with whitespaces**.
 - There will be 2 buttons. The button labeled `find tree` will show the prefix tree of the statement. The button labeled `find tree and circuit` will first remove all non-junction operations in the statement and creates both the prefix tree and logical circuit of the statement.
 
+## Testcases
+Below are given some of the testcases to test the functionality of this app:
+```
+(¬P∨S)→(Q∧R)
+(¬P∨S)
+(P∧P)↔P
+(P∨P)↔P
+P↔Q
+(P∧(R∨Q))↔((P∧R)∨(P∧Q))
+((P∧R)∨(P∧Q))
+(F∧G)∧(F↔(¬G))
+(F∧G)∧(F∨(¬G))
+(F∧G)↔(F∨(¬G))
+(F↔G)↔(F↔(¬G))
+(F∧G)→(F∨(¬G))
+```
 [//]: # 
    [Python]: <https://www.python.org/>
    [TkInter]: <https://wiki.python.org/moin/TkInter>
